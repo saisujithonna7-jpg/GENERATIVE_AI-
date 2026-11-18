@@ -7,7 +7,7 @@ from pymongo import MongoClient
 from pymongo.errors import PyMongoError
 
 
-class UsageLogger:
+class MONGOLOGGER:
     def __init__(self):
         load_dotenv(Path(__file__).parent / ".env", override=True)
         mongo_uri = os.getenv("MONGODB_URI")
@@ -19,7 +19,7 @@ class UsageLogger:
             )
 
         self.client = MongoClient(
-            mongo_uri,
+             "mongodb://localhost:27017/",
             serverSelectionTimeoutMS=5000,
             connectTimeoutMS=5000,
             socketTimeoutMS=10000,

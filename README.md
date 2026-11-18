@@ -12,6 +12,7 @@ This repository contains lab experiments covering end-to-end Generative AI conce
 | [**Week 2**](week2/README.md) | **Provider-Agnostic LLM Client** | Unified adapter interface over cloud (Gemini) and local (Ollama/Llama 3.2) models with unit tests. | Strategy Pattern, Ollama, REST API, pytest |
 | [**Week 3**](week3/README.md) | **LLM Observability with MongoDB** | Capturing token usage, latency (ms), and cost, with retry mechanisms and MongoDB Atlas persistence. | PyMongo, MongoDB Atlas, Fault Tolerance |
 | [**Week 4**](week4/README.md) | **Tokenizer Lab: BPE vs. WordPiece vs. SentencePiece** | Comparing subword tokenizers across English, Telugu, and Hindi scripts. | Hugging Face Transformers, SentencePiece |
+| [**Week 5**](week5/README.md) | **LLM Feature Budget and Capacity Planning** | Modeling token economics, RPM/TPM limits, cost estimation, and capacity planning with unit tests. | Python, dataclasses, unittest, python-dotenv |
 
 ---
 

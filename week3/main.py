@@ -7,13 +7,13 @@ from dotenv import load_dotenv
 sys.path.insert(0, str(Path(__file__).parent))
 
 from llm_client import GeminiProvider, OllamaProvider, LLMClient
-from usage_logger import UsageLogger
+from mongo_logger import MONGOLOGGER
 
 # Load .env
 load_dotenv(Path(__file__).parent / ".env", override=True)
 load_dotenv(override=True)
 
-usage_logger = UsageLogger()
+usage_logger = MONGOLOGGER()
 
 try:
     provider_name = input("Choose provider (gemini/ollama): ").strip().lower()

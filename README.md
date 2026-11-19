@@ -13,6 +13,7 @@ This repository contains lab experiments covering end-to-end Generative AI conce
 | [**Week 3**](week3/README.md) | **LLM Observability with MongoDB** | Capturing token usage, latency (ms), and cost, with retry mechanisms and MongoDB Atlas persistence. | PyMongo, MongoDB Atlas, Fault Tolerance |
 | [**Week 4**](week4/README.md) | **Tokenizer Lab: BPE vs. WordPiece vs. SentencePiece** | Comparing subword tokenizers across English, Telugu, and Hindi scripts. | Hugging Face Transformers, SentencePiece |
 | [**Week 5**](week5/README.md) | **LLM Feature Budget and Capacity Planning** | Modeling token economics, RPM/TPM limits, cost estimation, and capacity planning with unit tests. | Python, dataclasses, unittest, python-dotenv |
+| [**Week 6**](week6/README.md) | **Golden Question Set Baseline Evaluation** | Evaluating local LLM (`llama3.2`) answers against a curated golden dataset with keyword coverage scoring. | Python, Ollama REST API, requests, CSV |
 
 ---
 
